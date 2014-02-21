@@ -1,0 +1,45 @@
+for the tool:
+add sec_soc stuff
+add more connectors
+add more clausing
+add pronouns
+add prepositions
+
+Generate 200,000 test data points.
+
+To Generalize:
+
+should be able to pass in a grammar and a set of atomics from a file and generate the complex/complete/compound structures.
+
+def atomic := A word type.  E.g. noun, verb, adjective, etc.
+
+def bridge term := A connecting word.  E.g. and/or, if,then,because,however, etc.
+
+Form of grammar:  
+
+Basic clause: set of atomics.  E.g. Subject verb object.
+
+Compound statement:
+
+Starting atomic middle atomics and/or bridge term and final atomic.
+E.g. Subject verb object and subject verb object.
+
+Complex statement:
+
+Starting clause connector ending clause.
+E.g. Subject verb object if object boolean.
+
+Complete statement:
+
+All clauses needed and the frequency of a given pattern.
+E.g. Compound 55% of the time,
+     Complex 35% of the time,
+     Simple 10% of the time.  
+
+This should generate the code and store it in a file of the authors choosing.
+Append this to the setup script.
+Then this should recompile the setup and install the app.
+Finally should test the app.
+
+Remember to include the code generator code.
+
