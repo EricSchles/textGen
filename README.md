@@ -10,7 +10,7 @@ Sentences are broken up into simple categories:
 	compound-complex sentences
 
 basic usage:
-import textGen as tg
+import textGen.textgenerator as tg
 
 tg.subjects = ["Eric","Brandon","Steve","Mark"]
 tg.verbs = ["walk","walked","run","code","write"]
