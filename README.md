@@ -10,7 +10,9 @@ Sentences are broken up into simple categories:
 	compound-complex sentences : has both complex and compound parts
 
 basic usage:
-import textGen as tg
+import textGen 
+
+tg = textGen.textgenerator()
 
 tg.subjects = ["Eric","Brandon","Steve","Mark"]
 tg.verbs = ["walk","walked","run","code","write"]
@@ -22,4 +24,6 @@ print text = tg.complete_textgen(num_words) #compoud and complex sentences
 print text = tg.complex_textgen(num_words)  #complex sentences
 print text = tg.compound_textgen(num_words) #compound setences
 
+Dependencies:
 
+https://bitbucket.org/leapfrogdevelopment/rstr/
